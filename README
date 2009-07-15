@@ -4,9 +4,6 @@ Truncate Active Record
 Opens up the SQLite3 connection adapter and adds a truncate method which behaves similarly to the SQL truncate command, deleting all records in the database and resetting the auto-increment ID.
 Returns the number of deleted records.
 
-Currently only works with SQLite3 (for obvious reasons)
-
-
 Example
 =======
 
